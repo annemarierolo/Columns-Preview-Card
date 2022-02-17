@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    display: flex;
+    width: 65%;
+    /* margin: auto; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 50px;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 50px;
+}
+
+.mainImage {
+    height: 40px;
+    width: 60px;
+    align-items: center;
+}
+
+.description {
+    text-align: left;
+}
+
+.description h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 32px;
+}
+
+.description p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 40px;
+    padding: 0.1px 0px 0.1px 0px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 80px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#bdetail1:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#bdetail2:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#bdetail3:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#bdetail1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#bdetail2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#bdetail3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1100px) {
+    .container {
+        display: inline;
+    }
+    .card1,
+    .card3 {
+        border-radius: 0px;
+    }
+}
